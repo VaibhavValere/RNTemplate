@@ -3,26 +3,22 @@
  */
 
 import React from 'react';
-import {
-  NavigationContainer,
-  DarkTheme,
-  LightTheme,
-} from '@react-navigation/native';
-import {Provider} from 'react-redux';
-
-// Local Import
-import {AuthNavigator} from './src/navi/authNavigator';
-import {store} from './src/redux/store';
+import {View, StyleSheet, Text} from 'react-native';
 
 const App = () => {
   return (
-    <Provider store={store}>
-      {/* // <NavigationContainer theme={DarkTheme}> */}
-      <NavigationContainer theme={LightTheme}>
-        <AuthNavigator />
-      </NavigationContainer>
-    </Provider>
+    <View style={styles.container}>
+      <Text> Open up App.js to start working on your app!</Text>
+    </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
 
 export default App;
