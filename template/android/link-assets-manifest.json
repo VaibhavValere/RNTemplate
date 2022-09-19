@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "assets/fonts/icomoon.ttf",
+      "sha1": "4338a13c4d1ba12c6a91bd2e3a005f8b82649892"
+    }
+  ]
+}
